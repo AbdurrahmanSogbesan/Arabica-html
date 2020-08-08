@@ -19,6 +19,9 @@ body {
     padding-bottom: 366px;
 }
 
+.new-padding {
+    padding-top: 112px !important;
+}
 
 .cont-right {
     background-image: url(../img/arabica-coffee-nendo-8.png);
@@ -120,22 +123,91 @@ body {
 
 .black-button {
     width: 100%;
-  height: 50px;
-  border-radius: 2px;
-  border: solid 1px #000000;
-  background-color: #000000;
-  color: white;
+    height: 50px;
+    border-radius: 2px;
+    border: solid 1px #000000;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
 }
 
-@media (max-width:800px) {
+@media (max-width:900px) {
     .cont-left {
         padding-top: 75px;
         padding-left: 30px;
         padding-right: 30px;
-        padding-bottom: 0;
     }
 
-    .form {
+    /* .form {
         margin-top: 85px;
-    }
+    } */
+}
+
+.back-row {
+    margin-bottom: 43px;
+}
+
+.back-text {
+    width: 37px;
+    height: 19px;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4d4f5c;
+    margin-left: 12.5px;
+    vertical-align: middle;
+}
+
+.new-margin-top {
+    margin-top: 172px !important;
+}
+
+.margin-50 {
+    margin-bottom: 50px;
+}
+
+.margin-top-OTP {
+    margin-top: 126px;
+}
+
+.mobile-btm {
+    margin-bottom: 39px;
+}
+
+.otp-m-btm {
+    margin-bottom: 37px;
+}
+
+.btn-m-btm {
+    margin-bottom: 144px;
+}
+
+.resend-otp {
+    text-align: center;
+}
+
+.light-black {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.dark-grey {
+    color: #4d4f5c;
+}
+
+.new-pword-m {
+    margin-bottom: 30px;
+}
+
+.margin-top-pword {
+    margin-top: 113px;
+}
+
+.pword-m-btm {
+    margin-bottom: 40px;
 }
