@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Karla', sans-serif;
 }
@@ -10,13 +14,11 @@ body {
 }
 
 .cont-left{
-    padding-top: 136px;
-    padding-left: 159px;
-    padding-right: 159px;
-    width: 792px;
-    height: 1080px;
     background-color: #ffffff;
-    padding-bottom: 366px;
+    padding: 112px 10% 0;
+    flex: 1;
+    height: 100%;
+    overflow-y: scroll;
 }
 
 .new-padding {
@@ -26,8 +28,8 @@ body {
 .cont-right {
     background-image: url(../img/arabica-coffee-nendo-8.png);
     background-size: cover;
-    width: 1128px;
-    height: 1080px;
+    flex: 2;
+    height: 100%;
 }
 
 .logo{
@@ -54,7 +56,7 @@ body {
 }
 
 .form {
-    margin-top: 177px;
+    margin-top: 55px;
 }
 
 .title-small {
@@ -164,10 +166,6 @@ body {
     vertical-align: middle;
 }
 
-.new-margin-top {
-    margin-top: 172px !important;
-}
-
 .margin-50 {
     margin-bottom: 50px;
 }
@@ -185,7 +183,7 @@ body {
 }
 
 .btn-m-btm {
-    margin-bottom: 144px;
+    margin-bottom: 54px;
 }
 
 .resend-otp {
@@ -202,10 +200,6 @@ body {
 
 .new-pword-m {
     margin-bottom: 30px;
-}
-
-.margin-top-pword {
-    margin-top: 113px;
 }
 
 .pword-m-btm {
